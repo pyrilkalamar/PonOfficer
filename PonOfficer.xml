@@ -1,0 +1,49 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/"> 
+<Frame name="PO_LootConfirm" movable="false" enableMouse="true" hidden="true" frameStrata="DIALOG" parent="UIParent">
+	<Size> 
+	  <AbsDimension x="400" y="100"/> 
+	</Size> 
+	<Anchors>
+		<Anchor point="CENTER"/>
+	</Anchors>
+	<Backdrop bgFile="Interface\TutorialFrame\TutorialFrameBackground" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+		<EdgeSize>
+			<AbsValue val="32"/>
+		</EdgeSize>
+		<TileSize>
+			<AbsValue val="32"/>
+		</TileSize>
+		<BackgroundInsets>
+			<AbsInset left="5" right="5" top="5" bottom="5"/>
+		</BackgroundInsets>
+	</Backdrop>
+	<Layers> 
+	   <Layer level="ARTWORK"> 
+			<FontString inherits="GameFontNormal" name="$parentText"> 
+				<Size><AbsDimension x="350" y="75"/></Size> 
+				<Anchors><Anchor point="TOP">
+					<Offset><AbsDimension x="0" y="0"/></Offset>
+				</Anchor></Anchors>
+			</FontString> 
+	   </Layer> 
+	</Layers>
+	<Frames>
+		<Button name="$parentButton1" inherits="UIPanelButtonTemplate" text="Yes">
+			<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="95" y="-55"/></Offset></Anchor></Anchors>
+			<Size><AbsDimension x="95" y="20"/></Size> 
+			<Scripts>
+				<OnClick>PO_SendLoot(); this:GetParent():Hide()</OnClick>
+			</Scripts>
+		</Button>
+		<Button name="$parentButton2" inherits="UIPanelButtonTemplate" text="No">
+			<Anchors><Anchor point="LEFT" relativePoint="RIGHT" relativeTo="$parentButton1"><Offset><AbsDimension x="10" y="0"/></Offset></Anchor></Anchors>
+			<Size><AbsDimension x="95" y="20"/></Size> 
+			<Scripts>
+				<OnClick>this:GetParent():Hide()</OnClick>
+			</Scripts>
+		</Button>
+	</Frames>
+</Frame>
+
+
+</Ui>

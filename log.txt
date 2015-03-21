@@ -1,0 +1,59 @@
+Rising Sun   11.25   No winner
+Mimiron's Inferno Couplings   7.5   Irdetharn greed 3.75
+Freya's Choker of Warding   11.25   Penagau greed 5.63
+Titanstone Pendant   11.25    Rayfyst greed 5.63
+Signet of the Earthshaker   11.25   Irdetharn greed 5.63
+Sigil of the Vengeful Heart   7.5   No Winner
+Sandals of Rash Temperament   7.5   No Winner
+Drape of the Lithe   7.5   Gaatix need 7.5
+Handguards of the Enclave   11.25   No Winner
+Overload Legwraps   15   No Winner
+Wrathstone   11.25   Nirrel Need 11.25
+Unfaltering Armguards   7.5   No Winner
+Bracers of Unleashed Magic   7.5   No Winner
+Shoulderplates of the Eternal   15   Abura Need 15
+Unbreakable Chestguard    15   Abura Greed 7.5
+Runescribed Blade   11.25   No Winner
+Flamestalker Boots   7.5   Aquadora greed 3.75
+Charred Saronite Greaves   7.5   Abura greed 3.75
+Intensity   15   Rabell need 15
+
+/pon charge Irdetharn 3.75
+/pon charge Penagau 5.63
+/pon charge Rayfyst 5.63
+/pon charge Irdetharn 5.63
+/pon charge Gaatix 7.5
+/pon charge Nirrel 11.25
+/pon charge Abura 15
+/pon charge Abura 7.5
+/pon charge Aquadora 3.75
+/pon charge Abura 3.75
+/pon charge Rabell 15
+
+Aerden
+Ceraphus
+Amazonia
+Aquadora
+Foxey
+Kanus
+Douglass
+Xsinova
+Blaise
+Daring
+Freezing
+Xia
+Abura
+Nicca
+Penegau
+Leloo
+Rabell
+Nirrel
+Gaatix
+Khrissi
+Tranola
+Xeni
+Jibbs
+Irdetharn
+Papabear
+Puckdog
+Rayfyst
